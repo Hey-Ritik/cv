@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #E0F2FE, #FFFFFF, #E0F2FE);
+}
+
+.bg-gradient-header {
+    background: linear-gradient(to right, #3B82F6, #8B5CF6);
+}
+
+.text-gray-900 {
+    color: #1F2937;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.profile-pic {
+    width: 100px; /* Adjusted size */
+    height: 100px; /* Adjusted size */
+    margin: 0 auto;
+    border-radius: 50%; /* Circular frame */
+    overflow: hidden;
+    border: 4px solid white; /* White border */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.profile-img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.text-5xl {
+    font-size: 3rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.leading-relaxed {
+    line-height: 1.625;
+}
+
+.section-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    border-bottom: 4px solid #3B82F6;
+    display: inline-block;
+    padding-bottom: 0.25rem;
+}
+
+/* Skills List */
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skills-list li {
+    background-color: #E0F2FE; /* Default background color */
+    padding: 1rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for skills */
+.skills-list li:hover {
+    background-color: #3B82F6; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Experience, Education, and Project Items */
+.experience-item, .education-item, .project-item {
+    background-color: #F3F4F6;
+    padding: 1rem;
+    border-radius: 0.375rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+
+/* Contact Links */
+.contact-link {
+    color: #3B82F6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    background-color: #F9FAFB; /* Light background for the form */
+    padding: 2rem; /* Increased padding for better spacing */
+    border-radius: 0.375rem; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    max-width: 600px; /* Set a max width for the form */
+    margin: 0 auto; /* Center the form */
+}
+
+.input-field {
+    width: 100%; /* Full width */
+    padding: 0.75rem; /* Padding for input fields */
+    border-radius: 0.375rem; /* Rounded corners */
+    border: 1px solid #D1D5DB; /* Light border */
+    margin-bottom: 1rem; /* Space between fields */
+    color: #374151; /* Text color */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    font-size: 1rem; /* Font size */
+}
+
+.input-field:focus {
+    border-color: #3B82F6; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.submit-button {
+    background-color: #3B82F6; /* Button color */
+    color: #FFFFFF; /* Text color */
+    padding: 0.75rem 1.5rem; /* Increased padding */
+    border-radius: 0.375rem; /* Rounded corners */
+    font-weight: 600; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for button */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+    border: none; /* Remove default border */
+}
+
+.submit-button:hover {
+    background-color: #2563EB; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.submit-button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}
+
+/* Project Item Styles */
+.project-item {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between text and image */
+    align-items: center; /* Center vertically */
+    margin-top: 1rem; /* Space between project items */
+}
+
+.project-image {
+    width: 100px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0.375rem; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Shadow for the image */
+    margin-left: 1rem; /* Space between text and image */
+}
+
+/* Footer Styles */
+.bg-gradient-footer {
+    background: linear-gradient(to right, #8B5CF6, #3B82F6);
+}
+
+.mt-10 {
+    margin-top: 2.5rem;
+}
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
